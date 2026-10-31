@@ -2,6 +2,28 @@
 
 User-facing changes since version 1.0.7. See the [releases page](https://github.com/HypesMarket/Hypes_Market-Proxy-Print-Creator/releases) for downloads.
 
+## 1.0.15 — October 31, 2026
+
+- Simplified **Upload Images** to a plain button with the parent-folder shortcut retained. Removed its settings gear, bleed-mode menu, and automatic bleed detection.
+- Renamed **My Uploads** to **Manage Uploads**.
+- New uploads start with no built-in source bleed. Configure bleed manually in the right Settings column.
+- Added **Uploaded artwork source bleed** controls with an explicit **Apply to all copies in this project** action, including Undo/Redo. Other projects, saved library records, and output settings are preserved.
+- Respected manually entered **0 mm** source bleed and refreshed processing/import handling so manual choices take effect.
+- Updated the Guide for the simplified upload and manual bleed workflow.
+
+## 1.0.14 — October 31, 2026
+
+- Made the −/+ zoom symbols red, with visible hover and keyboard-focus backgrounds in both themes.
+- Added a native desktop image picker that remembers the last confirmed upload folder, plus **Upload from parent folder** beside Upload Images.
+- Preserved multiple-file selection, cancellation, repeated selection, and project guards. The parent shortcut works independently of the native picker's Back/Forward history.
+- Updated the Guide with folder navigation and zoom appearance.
+
+## 1.0.13 — October 31, 2026
+
+- Preserved transparent and partially transparent PNG pixels in previews and exports when no new bleed is generated. Rounded corners stay transparent at zero bleed.
+- Refreshed derived image and effect caches from original artwork so saved projects use the correction without re-uploading images.
+- Clarified card dimensions, transparent corners, generated bleed, and cutting guides in the Guide. Positive generated bleed keeps its square print margin.
+
 ## 1.0.12 — October 31, 2026
 
 - The lower-left back arrow is now **Remove last card**. It removes the most recently added front and its linked back, without undoing settings.

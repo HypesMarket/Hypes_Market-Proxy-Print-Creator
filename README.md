@@ -8,12 +8,12 @@ A free desktop app for arranging card images and exporting print-ready PDFs. Bui
 
 **No ads. No subscriptions. No telemetry. Every feature is available without donating.**
 
-## Download version 1.0.12
+## Download version 1.0.15
 
 | Your computer | Download | Status |
 | --- | --- | --- |
-| Mac with Apple Silicon (M-series) | [Download for Mac](https://github.com/HypesMarket/Hypes_Market-Proxy-Print-Creator/releases/download/v1.0.12/Hypes_Market-1.0.12-mac-arm64.zip) | Tested on Apple Silicon macOS |
-| Windows 11, x64 | [Download for Windows](https://github.com/HypesMarket/Hypes_Market-Proxy-Print-Creator/releases/download/v1.0.12/Hypes_Market-1.0.12-win-x64.zip) | Unsigned preview; not yet runtime-tested on a Windows device |
+| Mac with Apple Silicon (M-series) | [Download for Mac](https://github.com/HypesMarket/Hypes_Market-Proxy-Print-Creator/releases/download/v1.0.15/Hypes_Market-1.0.15-mac-arm64.zip) | Tested on Apple Silicon macOS |
+| Windows 11, x64 | [Download for Windows](https://github.com/HypesMarket/Hypes_Market-Proxy-Print-Creator/releases/download/v1.0.15/Hypes_Market-1.0.15-win-x64.zip) | Unsigned preview; not yet runtime-tested on a Windows device |
 
 [Latest release and all download files](https://github.com/HypesMarket/Hypes_Market-Proxy-Print-Creator/releases/latest) · [Installation guide](INSTALLATION.md) · [What's changed](CHANGELOG.md)
 
@@ -28,8 +28,10 @@ Choose the named Mac or Windows ZIP. GitHub's automatically generated **Source c
 - **Precise layouts:** page sizes, rows, columns, spacing, bleed, positioning, and cutting guides.
 - **Free saved presets and projects:** keep reusable settings and separate card projects on your computer.
 - **Local upscaling:** Lanczos and **1400 DPI** are the factory defaults. No upscaling and Bicubic are also available. Higher custom DPI values depend on your computer's resources; enlargement cannot recreate missing image detail. Saved upscaling choices are preserved.
+- **Simple uploads and manual bleed:** Upload Images has a plain button and a desktop parent-folder shortcut. Manage Uploads opens your image library. Configure source and output bleed in the right Settings column.
+- **Transparent artwork:** rounded PNG corners and partial transparency are preserved when no new bleed is generated; saved previews refresh from their original artwork. Positive generated bleed intentionally fills a square print margin.
 - **Fast card actions:** Duplicate copies the last card on the current sheet, including artwork, edits, and its linked back. Test Image adds an offline calibration card. Clear Cards asks for confirmation.
-- **Comfortable viewing:** light and dark modes, an offline Guide, always-visible −/+ zoom buttons with the percentage underneath, and a pin button to keep the app above other ordinary windows.
+- **Comfortable viewing:** light and dark modes, an offline Guide, always-visible red −/+ zoom symbols with a clear hover/focus background and the percentage underneath, and a pin button to keep the app above other ordinary windows.
 - **More ways to import:** upload your images, enter a decklist, use supported online artwork sources, or import MPC Autofill XML.
 
 ## Quick start
@@ -37,10 +39,18 @@ Choose the named Mac or Windows ZIP. GitHub's automatically generated **Source c
 1. Extract and open the app using the [installation guide](INSTALLATION.md).
 2. Upload card images, or click **Test Image** for the bundled calibration artwork.
 3. Select a card size and adjust the page layout. The factory layout is Letter paper with a 3 × 3 grid; larger cards may need fewer rows or columns.
-4. Choose cutting guides and upscaling. New projects use your saved personal defaults when available.
+4. Configure bleed manually in the right column, then choose cutting guides and upscaling. New projects use your saved personal defaults when available.
 5. Export your PDF, then print at **100% / Actual Size**, with printer scaling disabled. Measure a test sheet before printing a full deck. Use **Standard (63 × 88 mm)** when checking the calibration card's printed size label.
 
 Open **Guide** inside the app for the full workflow. Screen zoom changes your view, not the printed size.
+
+### Upload folders and manual bleed
+
+On desktop, **Upload Images** remembers the last folder from which you confirmed an upload. The folder-up button beside it opens that folder's parent, making neighbouring card folders easier to reach. Choose images once before using this shortcut. On Mac, **Command + Up Arrow** also goes to the enclosing folder inside the picker; Back/Forward history starts fresh when the picker reopens.
+
+New uploads start with **no built-in source bleed**. They are not classified automatically from their dimensions. If artwork already contains a margin, select an uploaded front card and open **Bleed → Uploaded artwork source bleed** on the right. Set **Artwork already includes bleed**, enter the source amount in millimeters, and choose **Apply to all copies in this project**. This changes all copies of the selected artwork in the open project, including linked backs using the same artwork. Saved library records and other projects stay unchanged, and keyboard Undo/Redo is available.
+
+**Bleed Width** and **Images With/Without Bleed Settings** control the output margin. To retain transparent rounded corners, use **0 mm output bleed** or the appropriate **No Bleed** option, and check per-card overrides. Square/Round cutting guides change cut marks, not image transparency.
 
 ### Card arrows and keyboard history
 
@@ -72,7 +82,7 @@ Include your app version, operating system, what you expected, what happened, an
 
 ## Release and license information
 
-This repository provides official application downloads and user documentation. Release ZIPs contain the standalone app and bundled dependency notices. [SHA256SUMS.txt](SHA256SUMS.txt) lists the two version 1.0.12 app download checksums. Updates are downloaded manually; this version has no automatic update service.
+This repository provides official application downloads and user documentation. Release ZIPs contain the standalone app and bundled dependency notices. [SHA256SUMS.txt](SHA256SUMS.txt) lists the two version 1.0.15 app download checksums. Updates are downloaded manually; this version has no automatic update service.
 
 The Hypes_Market project uses MIT licensing, with adapted code and dependencies retaining their own rights, copyright notices, and licenses. Read [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) and the notices included with the app. Software licensing does not grant rights to third-party card artwork.
 
