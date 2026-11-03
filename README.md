@@ -13,7 +13,14 @@ A free desktop app for arranging card images and exporting print-ready PDFs. Bui
 | Your computer | Download | Status |
 | --- | --- | --- |
 | Mac with Apple Silicon (M-series) | [Download for Mac](https://github.com/HypesMarket/Hypes_Market-Proxy-Print-Creator/releases/download/v1.0.15/Hypes_Market-1.0.15-mac-arm64.zip) | Tested on Apple Silicon macOS |
-| Windows 11, x64 | [Download for Windows](https://github.com/HypesMarket/Hypes_Market-Proxy-Print-Creator/releases/download/v1.0.15/Hypes_Market-1.0.15-win-x64.zip) | Unsigned preview; not yet runtime-tested on a Windows device |
+| Windows 11, x64 | [Download for Windows](https://github.com/HypesMarket/Hypes_Market-Proxy-Print-Creator/releases/download/v1.0.15/Hypes_Market-1.0.15-win-x64.zip) | Windows 11 runtime checks passed; physical printing confirmed by the user. Unsigned build. |
+
+### Windows 11 validation (November 3, 2026)
+
+Version 1.0.15 passed focused Windows 11 checks for calibration-card rendering, duplication, Ctrl+Z, and saving a 1400 DPI Lanczos fronts-only PDF through the native Save dialog. The exported Letter page, artwork resolution, physical placement including bleed, and independent PDF rendering were verified. The user also tested physical printing on Windows 11 and confirmed it works as intended.
+
+These checks do not cover every export mode or printer configuration; duplex printing and broader Windows regression testing were not separately verified.
+
 
 [Latest release and all download files](https://github.com/HypesMarket/Hypes_Market-Proxy-Print-Creator/releases/latest) · [Installation guide](INSTALLATION.md) · [What's changed](CHANGELOG.md)
 
