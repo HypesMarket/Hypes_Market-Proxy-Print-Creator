@@ -28,6 +28,22 @@ No Node.js or developer tools are needed. Mac builds target Apple Silicon; Intel
 
 Choose the named Mac or Windows ZIP. GitHub's automatically generated **Source code** archives contain this download repository's documentation, not the runnable app.
 
+## Screenshots
+
+Hypes_Market 1.0.15 running on Windows 11. Click either image to view it at full size.
+
+### Main app
+
+The workspace with the bundled calibration card, card-size controls, and page layout settings.
+
+![Hypes_Market main workspace on Windows 11 with a calibration card and layout settings](hypes-market-main-windows.jpg)
+
+### About Hypes_Market
+
+The About panel with the application version, local-processing information, support contact, and privacy statement.
+
+![About Hypes_Market showing version 1.0.15, support details, and privacy information](hypes-market-about-windows.jpg)
+
 ## Make your next print project easier
 
 - **Print-ready PDFs:** arrange fronts and backs, choose duplex or interleaved output, and export cutting templates.
