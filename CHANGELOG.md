@@ -2,6 +2,15 @@
 
 User-facing changes since version 1.0.7. See the [releases page](https://github.com/HypesMarket/Hypes_Market-Proxy-Print-Creator/releases) for downloads.
 
+## 1.0.16 — November 4, 2026
+
+- Fixed mostly translucent PNG artwork becoming invisible when generated bleed was enabled, in both the sheet preview and exported PDFs.
+- Refreshed generated previews and effects from original artwork automatically so previously imported cards use the corrected processing. Original image files remain unchanged.
+- Added **drag-and-drop image uploads** onto the sheet. Drop multiple images from Finder or File Explorer to fill the next available tiles, continuing onto another page when needed. Existing cards remain in place; dropped files use the same local upload workflow and manual bleed settings as Upload Images.
+- Added **Recent PDF downloads** immediately to the right of the light/dark mode button. It lists the last 20 completed PDFs saved by the app, newest first, with filenames, dates, and sizes. Click a PDF to open its containing folder in Finder or File Explorer with the file selected.
+- Added a green notification dot for newly saved PDFs. History stays on this device across restarts; cancelled or failed downloads are excluded. PDFs saved before this update are not listed. Moved or deleted files show a helpful message.
+- Updated the offline Guide for drag-and-drop uploads and recent PDF downloads.
+
 ## 1.0.15 — October 31, 2026
 
 - Simplified **Upload Images** to a plain button with the parent-folder shortcut retained. Removed its settings gear, bleed-mode menu, and automatic bleed detection.
