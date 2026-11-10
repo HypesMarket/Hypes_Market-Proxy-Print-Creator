@@ -2,6 +2,14 @@
 
 User-facing changes since version 1.0.7. See the [releases page](https://github.com/HypesMarket/Hypes_Market-Proxy-Print-Creator/releases) for downloads.
 
+## 1.0.17 — November 10, 2026
+
+- Preserved high-resolution artwork detail in PDF and card image exports by removing the intermediate 1200 DPI reduction.
+- **Bicubic** and **Lanczos** now use the selected export DPI as a per-card minimum: lower-resolution artwork is enlarged once from the original, while artwork already at or above that resolution retains its native detail. **No upscaling** retains the lower of the source resolution and selected DPI.
+- Preserved unedited PNG pixels and transparency when embedding artwork in PDFs.
+- Preserved the proportions of wide and tall artwork, and removed thin transparent edges caused by bleed rounding.
+- Added clear export failures when a card exceeds available processing resources. Updated the DPI labels, Upscaling help, and Guide. The 1400 DPI default and printed card dimensions are unchanged; higher-resolution output may produce larger files.
+
 ## 1.0.16 — November 4, 2026
 
 - Fixed mostly translucent PNG artwork becoming invisible when generated bleed was enabled, in both the sheet preview and exported PDFs.

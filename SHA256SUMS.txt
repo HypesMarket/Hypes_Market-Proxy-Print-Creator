@@ -1,2 +1,2 @@
-8f33d5bdfefc922f17d5f1fe7b4286337c86ea36e0c7e0c722bcbf5c895d1127  Hypes_Market-1.0.16-mac-arm64.zip
-e64aad714405fd1649c1ee0215a9dc44f072f98f6e3ff5ad2ed4acbbb5b00879  Hypes_Market-1.0.16-win-x64.zip
+a7f7ad95ecec97c85b86d9c1f76e49677b08652320a1ca95e0126d51ed163878  Hypes_Market-1.0.17-mac-arm64.zip
+4be42ca022f277b3160d51c925dfce20fa55e0ed90dc5888916e50906d364e9f  Hypes_Market-1.0.17-win-x64.zip
