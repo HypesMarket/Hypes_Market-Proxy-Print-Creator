@@ -8,25 +8,20 @@ A free desktop app for arranging card images and exporting print-ready PDFs on *
 
 **No ads. No subscriptions. No telemetry. Every feature is available without donating.**
 
-## Download version 1.0.17
+## Download version 1.0.18
 
 | Your computer | Download |
 | --- | --- |
-| Mac with Apple Silicon (M-series) | [Download for Mac](https://github.com/HypesMarket/Hypes_Market-Proxy-Print-Creator/releases/download/v1.0.17/Hypes_Market-1.0.17-mac-arm64.zip) |
-| Windows 11, x64 | [Download for Windows](https://github.com/HypesMarket/Hypes_Market-Proxy-Print-Creator/releases/download/v1.0.17/Hypes_Market-1.0.17-win-x64.zip) |
+| Mac with Apple Silicon (M-series) | [Download for Mac](https://github.com/HypesMarket/Hypes_Market-Proxy-Print-Creator/releases/download/v1.0.18/Hypes_Market-1.0.18-mac-arm64.zip) |
+| Windows 11, x64 | [Download for Windows](https://github.com/HypesMarket/Hypes_Market-Proxy-Print-Creator/releases/download/v1.0.18/Hypes_Market-1.0.18-win-x64.zip) |
 
 [Latest release](https://github.com/HypesMarket/Hypes_Market-Proxy-Print-Creator/releases/latest) · [Installation guide](INSTALLATION.md) · [What's changed](CHANGELOG.md)
 
 No developer tools needed. Intel Macs are unsupported. The Mac app is ad-hoc signed and not notarized; Windows builds are unsigned portable ZIPs. Choose the named app ZIP. GitHub's automatic **Source code** archives contain documentation, not the app.
 
-## New in version 1.0.17
+## New in version 1.0.18
 
-- **Keep high-resolution detail:** native Bicubic and Lanczos processing now use the selected DPI as a minimum for each card. Lower-resolution artwork is enlarged directly once; artwork already at or above the minimum keeps its native resolution.
-- **Full-resolution exports:** PDF and card image bleed/effect processing no longer passes artwork through a 1200 DPI intermediate stage.
-- **Clear processing errors:** per-card resource checks report artwork that cannot be processed at the required resolution, instead of silently reducing quality.
-- **Image fidelity fixes:** preserve unedited PNG pixels and transparency in PDFs, maintain image proportions, and remove thin transparent edges caused by bleed rounding.
-
-Lanczos and **1400 DPI** remain the factory defaults. Saved choices and physical printed card dimensions are retained.
+Cutting guides use the full opacity of your selected color in the sheet preview and exported PDFs, including when you paste a color that contains transparency.
 
 ## Features
 
@@ -73,9 +68,9 @@ Support development: [**Buy Me a Coffee**](https://buymeacoffee.com/hypesmarket)
 
 ## Release and rights
 
-This repository provides official downloads and documentation. [SHA256SUMS.txt](SHA256SUMS.txt) lists v1.0.17 app checksums. Updates are manual.
+This repository provides official downloads and documentation. [SHA256SUMS.txt](SHA256SUMS.txt) lists v1.0.18 app checksums. Updates are manual.
 
-Version 1.0.17 passed actual PDF/PNG export checks on Apple Silicon Mac. Its Windows package was built and audited but **not run on Windows**. Focused Windows 11 workflow checks and physical printing used v1.0.15; broader Windows and duplex testing remain unverified for this release. See release notes for details.
+Version 1.0.18 passed 101 targeted checks covering the guide-color fix and related behavior. Both packages were checked for ZIP integrity, version, and bundled assets. Focused Windows 11 workflow checks and physical printing used v1.0.15. See the release notes for details.
 
 Hypes_Market uses MIT licensing; adapted code and dependencies retain their own rights and licenses. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). Software licensing does not grant artwork rights; use artwork you have permission to reproduce.
 

@@ -1,16 +1,16 @@
-# Install Hypes_Market Proxy Print Creator 1.0.17
+# Install Hypes_Market Proxy Print Creator 1.0.18
 
 Download the app for your computer. No Node.js, developer tools, account, or subscription is required.
 
-- [Apple Silicon Mac ZIP](https://github.com/HypesMarket/Hypes_Market-Proxy-Print-Creator/releases/download/v1.0.17/Hypes_Market-1.0.17-mac-arm64.zip)
-- [Windows 11 x64 ZIP](https://github.com/HypesMarket/Hypes_Market-Proxy-Print-Creator/releases/download/v1.0.17/Hypes_Market-1.0.17-win-x64.zip)
+- [Apple Silicon Mac ZIP](https://github.com/HypesMarket/Hypes_Market-Proxy-Print-Creator/releases/download/v1.0.18/Hypes_Market-1.0.18-mac-arm64.zip)
+- [Windows 11 x64 ZIP](https://github.com/HypesMarket/Hypes_Market-Proxy-Print-Creator/releases/download/v1.0.18/Hypes_Market-1.0.18-win-x64.zip)
 - [Latest release and all files](https://github.com/HypesMarket/Hypes_Market-Proxy-Print-Creator/releases/latest)
 
 Choose the named Mac or Windows ZIP. GitHub's automatic **Source code** archives contain this repository's documentation, not the app.
 
 ## Mac with Apple Silicon
 
-1. Download `Hypes_Market-1.0.17-mac-arm64.zip`.
+1. Download `Hypes_Market-1.0.18-mac-arm64.zip`.
 2. Open the ZIP to extract `Hypes_Market.app`.
 3. Drag the app into Applications, then open it.
 
@@ -18,13 +18,13 @@ This build targets Apple Silicon (M-series) Macs. Intel Macs are not supported. 
 
 ## Windows 11 (x64)
 
-1. Download `Hypes_Market-1.0.17-win-x64.zip`.
+1. Download `Hypes_Market-1.0.18-win-x64.zip`.
 2. Right-click the ZIP and choose **Extract All**.
 3. Open the extracted folder and launch `Hypes_Market.exe`.
 
 Keep the EXE and all accompanying files and folders together. This is a portable ZIP, not a Windows installer. The build is unsigned, so Windows may display an unrecognized-app warning.
 
-Version 1.0.17 was packaged and audited but was not run on a Windows device during release preparation. Version 1.0.15 received focused workflow checks and physical print testing on Windows 11. Those earlier checks do not cover every workflow in this release, duplex printing, or every printer configuration.
+Version 1.0.18 was packaged and audited but was not run on a Windows device during release preparation. Version 1.0.15 received focused workflow checks and physical print testing on Windows 11. Those earlier checks do not cover every workflow in this release, duplex printing, or every printer configuration.
 
 ## Updating
 
@@ -69,7 +69,7 @@ New uploads start with no built-in source bleed; there is no automatic detection
 3. Check **Artwork already includes bleed** and enter the existing margin in millimeters.
 4. Choose **Apply to all copies in this project**. This updates copies of that artwork in the open project, including linked backs using the same artwork. Other projects and upload-library records stay unchanged. Undo/Redo is available.
 
-Source bleed of **0 mm** means there is no margin already in the artwork. **Bleed Width** and **Images With/Without Bleed Settings** control the output margin. To retain transparent PNG corners, use **0 mm output bleed** or the appropriate **No Bleed** option, and check per-card overrides. Positive generated bleed deliberately fills a square print margin. Cutting-guide shapes do not change image transparency.
+Source bleed of **0 mm** means there is no margin already in the artwork. **Bleed Width** and **Images With/Without Bleed Settings** control the output margin. To retain transparent PNG corners, use **0 mm output bleed** or the appropriate **No Bleed** option, and check per-card overrides. Positive generated bleed deliberately fills a square print margin. Cutting-guide shapes do not change image transparency. Guide colors render at full opacity in previews and PDFs.
 
 ## Find exported PDFs
 

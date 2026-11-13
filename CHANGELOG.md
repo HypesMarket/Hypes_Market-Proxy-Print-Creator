@@ -2,6 +2,10 @@
 
 User-facing changes since version 1.0.7. See the [releases page](https://github.com/HypesMarket/Hypes_Market-Proxy-Print-Creator/releases) for downloads.
 
+## 1.0.18 — November 12, 2026
+
+- Cutting guides use the full opacity of the selected color in sheet previews and PDFs, including when a pasted color contains transparency.
+
 ## 1.0.17 — November 10, 2026
 
 - Preserved high-resolution artwork detail in PDF and card image exports by removing the intermediate 1200 DPI reduction.
