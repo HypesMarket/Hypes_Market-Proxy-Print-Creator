@@ -1,3 +1,22 @@
+## [1.0.22] - 2026-11-14
+
+### Added
+
+- Hover over a Recent Images thumbnail to see a larger preview from the original image. Move away to close it.
+
+## [1.0.21] - 2026-11-14
+
+### Added
+
+- Recent Images shows thumbnails from the original files beside their folder locations.
+
+## [1.0.20] - 2026-11-14
+
+### Changed
+
+- Replaced Manage Uploads with Recent Images. The history remembers original file locations for reuse and reads the current file when adding it to a sheet.
+- Removing a history entry or clearing the list leaves original files and saved sheets intact. A new profile starts with an empty history, and existing sheets can still use their saved copies.
+
 ## [1.0.19] - 2026-11-14
 
 ### Changed

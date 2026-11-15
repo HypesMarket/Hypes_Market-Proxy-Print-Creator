@@ -1,16 +1,16 @@
-# Install Hypes_Market Proxy Print Creator 1.0.19
+# Install Hypes_Market Proxy Print Creator 1.0.22
 
 Download the app for your computer. No Node.js, developer tools, account, or subscription is required.
 
-- [Apple Silicon Mac ZIP](https://github.com/HypesMarket/Hypes_Market-Proxy-Print-Creator/releases/download/v1.0.19/Hypes_Market-1.0.19-mac-arm64.zip)
-- [Windows 11 x64 ZIP](https://github.com/HypesMarket/Hypes_Market-Proxy-Print-Creator/releases/download/v1.0.19/Hypes_Market-1.0.19-win-x64.zip)
+- [Apple Silicon Mac ZIP](https://github.com/HypesMarket/Hypes_Market-Proxy-Print-Creator/releases/download/v1.0.22/Hypes_Market-1.0.22-mac-arm64.zip)
+- [Windows 11 x64 ZIP](https://github.com/HypesMarket/Hypes_Market-Proxy-Print-Creator/releases/download/v1.0.22/Hypes_Market-1.0.22-win-x64.zip)
 - [Latest release and all files](https://github.com/HypesMarket/Hypes_Market-Proxy-Print-Creator/releases/latest)
 
 Choose the named Mac or Windows ZIP. GitHub's automatic **Source code** archives contain this repository's documentation, not the app.
 
 ## Mac with Apple Silicon
 
-1. Download `Hypes_Market-1.0.19-mac-arm64.zip`.
+1. Download `Hypes_Market-1.0.22-mac-arm64.zip`.
 2. Open the ZIP to extract `Hypes_Market.app`.
 3. Drag the app into Applications, then open it.
 
@@ -18,19 +18,19 @@ This build targets Apple Silicon (M-series) Macs. Intel Macs are not supported. 
 
 ## Windows 11 (x64)
 
-1. Download `Hypes_Market-1.0.19-win-x64.zip`.
+1. Download `Hypes_Market-1.0.22-win-x64.zip`.
 2. Right-click the ZIP and choose **Extract All**.
 3. Open the extracted folder and launch `Hypes_Market.exe`.
 
 Keep the EXE and all accompanying files and folders together. This is a portable ZIP, not a Windows installer. The build is unsigned, so Windows may display an unrecognized-app warning.
 
-Version 1.0.19 was packaged and audited but was not run on a Windows device during release preparation. Version 1.0.15 received focused workflow checks and physical print testing on Windows 11. Those earlier checks do not cover every workflow in this release, duplex printing, or every printer configuration.
+The v1.0.22 Windows package was inspected. Windows 11 runtime testing is pending for this release.
 
 ## Updating
 
 Close Hypes_Market before replacing application files. On Mac, replace the app in Applications. On Windows, extract the new version into its own folder and launch it with all accompanying files.
 
-Saved projects, uploads, presets, and settings use your operating system's application-data folder, separate from the app files. Keep original artwork and exported decklists as backups. Do not use **Reset App Data** to update; it removes saved project and upload data after confirmation.
+Saved projects, uploads, presets, settings, and file histories use your operating system's application-data folder, separate from the app files. Keep original artwork and exported decklists as backups. Do not use **Reset App Data** to update; it removes saved project and upload data after confirmation.
 
 Updates are downloaded manually. This version has no automatic update service.
 
@@ -60,14 +60,16 @@ For memory errors, close other applications or export a smaller job. **Lowering 
 
 ## Upload folders and source bleed
 
-**Manage Uploads** opens the local image library. On desktop, **Upload Images** remembers the last confirmed upload folder; the folder-up button beside it opens that folder's parent. Choose images once to enable this shortcut. On Mac, **Command + Up Arrow** also opens the enclosing folder inside the picker. Picker Back/Forward history starts fresh each time it opens.
+**Recent Images** lists the original files you added and shows their thumbnails. Hover over a thumbnail to enlarge it, or choose **Add** to use the saved source file on the current sheet. Remove one entry or clear the list to tidy up your history. Your files and saved sheets stay in place.
+
+**Upload Images** remembers the last confirmed upload folder. The folder-up button beside it opens that folder's parent. Choose images once to enable this shortcut. On Mac, **Command + Up Arrow** also opens the enclosing folder inside the picker. Picker Back/Forward history starts fresh each time it opens.
 
 New uploads start with no built-in source bleed; there is no automatic detection from image dimensions. If your file already includes a margin:
 
 1. Select an uploaded front card on the sheet.
 2. Open **Bleed → Uploaded artwork source bleed** in the right Settings column.
 3. Check **Artwork already includes bleed** and enter the existing margin in millimeters.
-4. Choose **Apply to all copies in this project**. This updates copies of that artwork in the open project, including linked backs using the same artwork. Other projects and upload-library records stay unchanged. Undo/Redo is available.
+4. Choose **Apply to all copies in this project**. This updates copies of that artwork in the open project, including linked backs using the same artwork. Other projects and recent-image entries stay unchanged. Undo/Redo is available.
 
 Source bleed of **0 mm** means there is no margin already in the artwork. **Bleed Width** and **Images With/Without Bleed Settings** control the output margin. To retain transparent PNG corners, use **0 mm output bleed** or the appropriate **No Bleed** option, and check per-card overrides. Positive generated bleed deliberately fills a square print margin. Cutting-guide shapes do not change image transparency. Guide colors render at full opacity in previews and PDFs.
 
