@@ -8,20 +8,20 @@ A free desktop app for arranging card images and exporting print-ready PDFs on *
 
 **No ads. No subscriptions. No telemetry. Every feature is available without donating.**
 
-## Download version 1.0.18
+## Download version 1.0.19
 
 | Your computer | Download |
 | --- | --- |
-| Mac with Apple Silicon (M-series) | [Download for Mac](https://github.com/HypesMarket/Hypes_Market-Proxy-Print-Creator/releases/download/v1.0.18/Hypes_Market-1.0.18-mac-arm64.zip) |
-| Windows 11, x64 | [Download for Windows](https://github.com/HypesMarket/Hypes_Market-Proxy-Print-Creator/releases/download/v1.0.18/Hypes_Market-1.0.18-win-x64.zip) |
+| Mac with Apple Silicon (M-series) | [Download for Mac](https://github.com/HypesMarket/Hypes_Market-Proxy-Print-Creator/releases/download/v1.0.19/Hypes_Market-1.0.19-mac-arm64.zip) |
+| Windows 11, x64 | [Download for Windows](https://github.com/HypesMarket/Hypes_Market-Proxy-Print-Creator/releases/download/v1.0.19/Hypes_Market-1.0.19-win-x64.zip) |
 
 [Latest release](https://github.com/HypesMarket/Hypes_Market-Proxy-Print-Creator/releases/latest) · [Installation guide](INSTALLATION.md) · [What's changed](CHANGELOG.md)
 
 No developer tools needed. Intel Macs are unsupported. The Mac app is ad-hoc signed and not notarized; Windows builds are unsigned portable ZIPs. Choose the named app ZIP. GitHub's automatic **Source code** archives contain documentation, not the app.
 
-## New in version 1.0.18
+## New in version 1.0.19
 
-Cutting guides use the full opacity of your selected color in the sheet preview and exported PDFs, including when you paste a color that contains transparency.
+New projects use blank card backs by default. The bundled card-back artwork from older versions has been removed. You can still use your own images and the geometric calibration card.
 
 ## Features
 
@@ -68,9 +68,9 @@ Support development: [**Buy Me a Coffee**](https://buymeacoffee.com/hypesmarket)
 
 ## Release and rights
 
-This repository provides official downloads and documentation. [SHA256SUMS.txt](SHA256SUMS.txt) lists v1.0.18 app checksums. Updates are manual.
+This repository provides official downloads and documentation. [SHA256SUMS.txt](SHA256SUMS.txt) lists v1.0.19 app checksums. Updates are manual.
 
-Version 1.0.18 passed 101 targeted checks covering the guide-color fix and related behavior. Both packages were checked for ZIP integrity, version, and bundled assets. Focused Windows 11 workflow checks and physical printing used v1.0.15. See the release notes for details.
+Both desktop release packages were inspected for bundled artwork. Focused Windows 11 workflow checks and physical printing used v1.0.15. See the release notes for details.
 
 Hypes_Market uses MIT licensing; adapted code and dependencies retain their own rights and licenses. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). Software licensing does not grant artwork rights; use artwork you have permission to reproduce.
 

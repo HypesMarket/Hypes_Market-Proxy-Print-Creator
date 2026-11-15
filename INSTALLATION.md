@@ -1,16 +1,16 @@
-# Install Hypes_Market Proxy Print Creator 1.0.18
+# Install Hypes_Market Proxy Print Creator 1.0.19
 
 Download the app for your computer. No Node.js, developer tools, account, or subscription is required.
 
-- [Apple Silicon Mac ZIP](https://github.com/HypesMarket/Hypes_Market-Proxy-Print-Creator/releases/download/v1.0.18/Hypes_Market-1.0.18-mac-arm64.zip)
-- [Windows 11 x64 ZIP](https://github.com/HypesMarket/Hypes_Market-Proxy-Print-Creator/releases/download/v1.0.18/Hypes_Market-1.0.18-win-x64.zip)
+- [Apple Silicon Mac ZIP](https://github.com/HypesMarket/Hypes_Market-Proxy-Print-Creator/releases/download/v1.0.19/Hypes_Market-1.0.19-mac-arm64.zip)
+- [Windows 11 x64 ZIP](https://github.com/HypesMarket/Hypes_Market-Proxy-Print-Creator/releases/download/v1.0.19/Hypes_Market-1.0.19-win-x64.zip)
 - [Latest release and all files](https://github.com/HypesMarket/Hypes_Market-Proxy-Print-Creator/releases/latest)
 
 Choose the named Mac or Windows ZIP. GitHub's automatic **Source code** archives contain this repository's documentation, not the app.
 
 ## Mac with Apple Silicon
 
-1. Download `Hypes_Market-1.0.18-mac-arm64.zip`.
+1. Download `Hypes_Market-1.0.19-mac-arm64.zip`.
 2. Open the ZIP to extract `Hypes_Market.app`.
 3. Drag the app into Applications, then open it.
 
@@ -18,13 +18,13 @@ This build targets Apple Silicon (M-series) Macs. Intel Macs are not supported. 
 
 ## Windows 11 (x64)
 
-1. Download `Hypes_Market-1.0.18-win-x64.zip`.
+1. Download `Hypes_Market-1.0.19-win-x64.zip`.
 2. Right-click the ZIP and choose **Extract All**.
 3. Open the extracted folder and launch `Hypes_Market.exe`.
 
 Keep the EXE and all accompanying files and folders together. This is a portable ZIP, not a Windows installer. The build is unsigned, so Windows may display an unrecognized-app warning.
 
-Version 1.0.18 was packaged and audited but was not run on a Windows device during release preparation. Version 1.0.15 received focused workflow checks and physical print testing on Windows 11. Those earlier checks do not cover every workflow in this release, duplex printing, or every printer configuration.
+Version 1.0.19 was packaged and audited but was not run on a Windows device during release preparation. Version 1.0.15 received focused workflow checks and physical print testing on Windows 11. Those earlier checks do not cover every workflow in this release, duplex printing, or every printer configuration.
 
 ## Updating
 
